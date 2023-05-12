@@ -1,12 +1,10 @@
 import React from 'react';
 import harvardArt from './data/harvardArt.js';
-import GalleryNavigation from './components/GalleryNavigation/'
+import GalleryNavigation from './components/index.js'
 
 function App() {
   return (
-    <GalleryNavigation>
-          <h1>Hello from App</h1>
-    </GalleryNavigation>
+    <GalleryNavigation/>
   );
 }
 

@@ -1,7 +1,8 @@
+import React from 'react';
 
 function GalleryNavigation (galleries) {
    console.log(galleries),
-   <h1>This is a Gallery</h1>
+   <h1>Gallery</h1>
 }
 
 export default GalleryNavigation;
